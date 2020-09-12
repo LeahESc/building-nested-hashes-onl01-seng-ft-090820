@@ -30,5 +30,5 @@ end
 def epic_tragedy_death_heroine
   epic_tragedy[:capulet][:heroine][:status] =
   "dead"
-  puts epic_tragedy
+  puts epic_tragedy[:capulet][:heroine][:status]
 end
