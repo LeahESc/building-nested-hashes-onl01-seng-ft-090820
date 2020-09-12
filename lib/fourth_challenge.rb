@@ -24,7 +24,7 @@ end
 def epic_tragedy_death_hero
   epic_tragedy[:montague][:hero][:status] =
   "dead"
-  puts epic_tragedy
+  puts epic_tragedy[:montague][:hero][:status]
 end
   
 def epic_tragedy_death_heroine
